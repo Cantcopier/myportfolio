@@ -1,12 +1,12 @@
 import { meta, shopify,souss,sfqm,redal, starbucks, tesla } from "../assets/images";
 import {
-    car,
+    // car,
     laravel,
     contact,
     php,
     mysql,
     css,
-    estate,
+    // estate,
     express,
     git,
     github,
@@ -22,11 +22,11 @@ import {
     react,
     redux,
     micro,
-    snapgram,
-    summiz,
+    // snapgram,
+    // summiz,
     ofppt,
     tailwindcss,
-    threads,
+    // threads,
     typescript
 } from "../assets/icons";
 

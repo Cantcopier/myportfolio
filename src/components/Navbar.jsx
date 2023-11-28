@@ -5,11 +5,11 @@ import { logo } from "../assets/images";
 const Navbar = () => {
   return (
     <header className='header'>
-      <NavLink to='/'>
+      <NavLink to='/home'>
       <h1 class=" rounded-lg text-3xl font-mono text-black mb-4   p-3">My Portfolio</h1>
       </NavLink>
       <nav className='flex text-lg gap-7 font-medium'>
-        <NavLink to='/about' className={({ isActive }) => isActive ? "text-blue-600" : "text-black" }>
+        <NavLink to='/' className={({ isActive }) => isActive ? "text-blue-600" : "text-black" }>
           About
         </NavLink>
         <NavLink to='/projects' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>

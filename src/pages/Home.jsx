@@ -4,7 +4,7 @@ import { Suspense, useEffect, useRef, useState } from "react";
 import sakura from "../assets/sakura.mp3";
 import {HomeInfo, Loader } from "../components";
 import { soundoff, soundon } from "../assets/icons";
-import { Bird, Island, Plane, Sky } from "../models";
+import { Bird, Island, Sky } from "../models";
 
 const Home = () => {
   const audioRef = useRef(new Audio(sakura));
@@ -43,9 +43,9 @@ const Home = () => {
   const adjustIslandForScreenSize = () => {
     let screenScale, screenPosition;
 
-    if (window.innerWidth < 768) {
-      screenScale = [0.9, 0.9, 0.9];
-      screenPosition = [0, -6.5, -43.4];
+    if (window.innerWidth < 860) {
+      
+      
     } else {
       screenScale = [1, 1, 1];
       screenPosition = [0, -6.5, -43.4];

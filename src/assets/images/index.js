@@ -1,4 +1,4 @@
-import hero from './hero.jpg'
+
 import meta from './meta.png'
 import shopify from './shopify.png'
 import starbucks from './starbucks.png'
@@ -9,7 +9,6 @@ import sfqm from './CFQMAS-Sale.jpg'
 import redal from './redal.jpg'
 
 export {
-    hero,
     meta,
     shopify,
     starbucks,
