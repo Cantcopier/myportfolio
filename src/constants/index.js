@@ -1,4 +1,4 @@
-import { meta, shopify,souss,sfqm,redal, starbucks, tesla } from "../assets/images";
+import { meta,souss,sfqm,redal, starbucks, tesla } from "../assets/images";
 import {
     // car,
     laravel,
@@ -19,6 +19,7 @@ import {
     xampp,
     nodejs,
     logor,
+    logotitle,
     react,
     redux,
     micro,
@@ -218,6 +219,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+   
+    {
+        iconUrl: logotitle,
+        theme: 'btn-back-grey',
+        name: 'Portfolio 3D',
+        description: 'Create 3D portfolio that highlights my expertise, specifically focusing on my experiences in 3D design .',
+        link: 'https://myportfolio3damine.netlify.app/',
+    },
     {
         iconUrl: logor,
         theme: 'btn-back-grey',

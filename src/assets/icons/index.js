@@ -34,10 +34,12 @@ import micro from './micro.svg'
 import ofppt from './ofppt.png'
 import logor from './logor.png'
 import iptst from './iptest.png'
+import logotitle from './logotitle.jpg'
 
 
 export {
     css,
+    logotitle,
     xampp,
     iptst,
     ofppt,
